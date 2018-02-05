@@ -1,11 +1,12 @@
 "use strict";
 var list = [];
-var i, y = 0;
-var namestr;
+//let i:number=0;
+//let namestr:String;
 function addTask(task) {
     var counter = 0;
     list.push(task);
     console.log(task + " was added to the array");
+    var i = 0;
     for (i = 0; i < list.length; i++) {
         counter++;
     }

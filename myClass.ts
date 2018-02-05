@@ -35,5 +35,12 @@ class myClass implements labTwo
    }
 }
 
+let hype = new myClass();
+hype.addTask("oscar");
+hype.addTask("mike");
+hype.listAllTask();
+
+
+
 
 
